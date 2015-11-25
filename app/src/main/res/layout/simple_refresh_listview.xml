@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-50dp"
+        android:scaleType="centerInside"
+        />
+
+    <ListView
+        android:id="@+id/abslistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        />
+
+    <ImageView
+        android:id="@+id/footerView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        />
+
+</merge>

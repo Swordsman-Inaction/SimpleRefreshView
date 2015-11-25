@@ -1,3 +1,7 @@
+#for git on mac
+*.DS_Store
+*.gitignore
+
 # Built application files
 *.apk
 *.ap_
